@@ -1,0 +1,25 @@
+{
+  font-family: Lato;
+  }
+  .cabecera{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  font-size: 30px;
+  height: 50px;
+  background: lightgrey;
+
+}
+.datosPersonales{
+  background: lightgrey;
+  width: 40%;
+  margin: 10px;
+  padding-left: 10px;
+  padding-top: 0.5px;
+  padding-bottom: 3px;
+}
+#box{
+  margin-left: 20px;
+  background: lightgrey;
+  width: 40%;
+}
