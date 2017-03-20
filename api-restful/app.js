@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var app = express();
 
 // Carga de rutas
-var image_routes = require('./routes/image');
-var album_routes = require('./routes/album');
+
+var proyecto_routes = require('./routes/proyecto');
 
 
 app.use(bodyParser.urlencoded({extended: false}));
@@ -25,9 +25,10 @@ app.use((req, res, next) =>{
 });
 
 // Rutas base
-app.use('/api', image_routes);
+app.use('/api', proyecto_routes);
+/*
 app.use('/api', album_routes);
-
+*/
 
 
 module.exports = app;
